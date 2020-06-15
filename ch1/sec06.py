@@ -11,7 +11,9 @@ for i in range(len(sentence2) - 1):
     Y += [sentence2[i:i + 2]]
 
 setX = set(X)
+print('X:' + str(setX))
 setY = set(Y)
+print('Y:' + str(setY))
 
 union = setX | setY
 print('和集合: ', union)
