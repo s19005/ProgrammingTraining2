@@ -12,4 +12,4 @@ for word in li1:
         random.shuffle(li3)
         li2 += [word[0] + ''.join(li3) + word[len(word) - 1]]
 
-print(li2)
+print(' '.join(li2))
